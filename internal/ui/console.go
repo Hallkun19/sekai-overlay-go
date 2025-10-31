@@ -60,8 +60,7 @@ func (c *Console) PrintBanner() {
 
 - Sekai Overlay Go                
 - Developed: はるくん(@Hallkun19)
-- Repository: 
-- Version: %s
+- Version: v%s
 
 ═════════════════════════════════════════════
 `, config.AppVersion)

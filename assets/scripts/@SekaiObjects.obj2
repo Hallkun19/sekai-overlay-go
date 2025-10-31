@@ -1,9 +1,9 @@
 -- SekaiObjects by halkun19 -------------------------------------
 
 @InitSettings
---file:skobj data
---track0:offset,-10000,10000,0,1
---check:ignore cache,0
+--file:Skobj Data
+--track0:Offset,-10000,10000,0,1
+--check:Ignore Cache,0
 
 JSON = require("dkjson")
 SKOBJ_VERSION = "v0.1.0"
@@ -64,11 +64,11 @@ end
 -----------------------------------------------------------------
 
 @Combo
---track0:AP,0,1,1,1
---track1:X Area Expand,1,10000,1000,1
+--track0:X Area Expand,1,10000,1000,1
+--check:AP,1
 
-local ap = obj.track0
-local x_area_expand = obj.track1
+local ap = obj.check
+local x_area_expand = obj.track0
 if LOAD_STATUS == "ok" and SKOBJ_JSON then
     if CURRENT_SKOBJ_DATA.combo > 0 then
         local progress = (obj.frame - OFFSET) - (CURRENT_SKOBJ_DATA.seconds * obj.framerate)
