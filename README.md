@@ -25,12 +25,16 @@ GUI上で特定のサーバーの譜面IDを入力すると、背景の生成か
 
 ## 使い方
 1. [Release](https://github.com/Hallkun19/sekai-overlay-go/releases/latest)ページからsekai-overlay-go.zipをダウンロード、任意の場所に解凍
-2. sekai-overlay-go.exeを起動
-3. 開いたコンソールで楽曲のIDやタイトルなどの情報を入力
-4. エイリアスの生成が完了すると、フォルダが開きます
-5. AviUtl2を開き、1920x1080, 60fpsで新規プロジェクトを作成します
-6. 5で開いたフォルダの"main.object"をAviUtl2のタイムラインにドラッグします
-7. AP演出の位置や、テキストの調整をして完成です
+2. sekai-overlay-go.exeを管理者権限で起動します
+3. 2のセットアップを選択して続行します（ここから）
+4. 正常に@SekaiObjects.obj2, unmult.anm2, dkjson.luaが入ったら完了です
+5. Enterを押して続行します（ここまで、初回のみ必要です）
+6. 1の譜面データ生成を選択して続行します
+7. 開いたコンソールで楽曲のIDやタイトルなどの情報を入力
+8. エイリアスの生成が完了すると、フォルダが開きます
+9. AviUtl2を開き、1920x1080, 60fpsで新規プロジェクトを作成します
+10. 5で開いたフォルダの"main.object"をAviUtl2のタイムラインにドラッグします
+11. AP演出の位置や、テキストの調整をして完成です
 
 ## カスタマイズ
 ### InitSettings@SekaiObjects
